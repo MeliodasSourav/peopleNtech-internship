@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    font-family: 'Vollkorn', serif;
+}
+
+main {
+    min-height: 80vh;
+    background: rgb(144, 207, 128);
+    display: flex;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+    color: steelblue;
+    font-size: 50px;
+}
+
+.container {
+    margin: auto;
+    width: auto;
+    max-width: 90%;
+}
+
+.container p {
+    padding-top: 18px;
+}
+
+button {
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 20px;
+}
