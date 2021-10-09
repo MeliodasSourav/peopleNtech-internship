@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoFrame</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .photo-frame {
+            width: 300px;
+            height: 440px;
+            border: 10px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+        }
+        
+        .photo-frame .photo img {
+            width: 100%;
+        }
+        
+        .photo-frame:hover .photo img {
+            transform: scale(1.2);
+            transition: transform 1s;
+        }
+        
+        .photo-detail {
+            position: absolute;
+            display: none;
+            width: 300px;
+            height: 441px;
+            top: 0;
+        }
+        
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: rgba(218, 188, 114, 0.7);
+        }
+        
+        .photo-frame:hover .photo-detail h3 {
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        
+        .photo-frame:hover .photo-detail p {
+            color: white;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Best Anime Series</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="photo/7deadlysin.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Naruto</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur commodi illum nam ducimus doloremque deserunt dolorem, officiis vel cum asperiores nobis esse maiores quos ad fuga sunt nihil aliquid dolores?
+                </p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="photo/deathnote.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Demon Slayer</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur commodi illum nam ducimus doloremque deserunt dolorem, officiis vel cum asperiores nobis esse maiores quos ad fuga sunt nihil aliquid dolores?
+                </p>
+            </div>
+        </div>
+
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="photo/demonslayer.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Death Note</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur commodi illum nam ducimus doloremque deserunt dolorem, officiis vel cum asperiores nobis esse maiores quos ad fuga sunt nihil aliquid dolores?
+                </p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="photo/naruto.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Saven Deadly Sin</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur commodi illum nam ducimus doloremque deserunt dolorem, officiis vel cum asperiores nobis esse maiores quos ad fuga sunt nihil aliquid dolores?
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

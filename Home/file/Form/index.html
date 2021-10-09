@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>Registration Form</header>
+    <main>
+        <div class="container">
+            <form action="" method="" enctype="multipart/form-data">
+
+                <p>
+                    <label for="fname">First Name</label> <br>
+                    <input type="text" name="username" id="fname" required placeholder="Enter Your First Name"> <br>
+                </p>
+                <p>
+                    <label for="lname">Last Name</label> <br>
+                    <input type="text" name="username" id="lname" required placeholder="Enter Your Last Name"> <br>
+                </p>
+                <p>
+                    <label for="email">E-mail</label> <br>
+                    <input type="email" name="email" required placeholder="Please Enter Your E-mail">
+                </p>
+                <p>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password" placeholder="Enter Password" required>
+                </p>
+                <p>
+                    <label for="password">Confirm Password</label><br>
+                    <input type="password" name="password" id="password" placeholder="Confirm Password" required>
+                </p>
+                <p>
+                    Gender:
+                    <input type="radio" name="gender" id="male" value="MALE">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" value="FEMALE"> Female
+                    <input type="radio" name="gender" value="OTHER"> Other
+                </p>
+                <p>
+                    Upload Your Photo <br>
+                    <input type="file">
+                </p>
+                <p>
+                    Your Location
+                    <select>
+                            <option value="">Barisal</option>
+                            <option value="">Chittagong</option>
+                            <option value="">Dhaka</option>
+                            <option value="">Khulna</option>
+                            <option value="">Mymensingh	</option>
+                            <option value="">Rajshahi</option>
+                            <option value="">Rangpur</option>
+                            <option value="">Sylhet</option>
+                        </select>
+                </p>
+
+                <p>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </p>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© Sourav<br>souravpaul.mailme@gmail.com</p>
+    </footer>
+</body>
+
+</html>
